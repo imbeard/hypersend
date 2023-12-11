@@ -1,0 +1,17 @@
+.draggable{
+
+
+  	touch-action: none;
+  	user-select: none;
+  	position:fixed;
+}
+
+@keyframes slidefrombottom {
+  from {
+    transform: translate(calc(50% - 150px),150%)
+  }
+
+  to {
+    transform: translate(calc(50% - 150px),calc(50% - 150px));
+  }
+}
